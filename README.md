@@ -41,4 +41,14 @@ The project supports **multiple ML models**, allows **real-time predictions**, a
 ---
 
 ## 📂 Project Structure
-
+📁 Air-Quality-Prediction
+│
+├── streamlit_app.py # Main web application file
+├── aqi_model_random_forest.pkl # Saved ML model
+├── scaler.pkl # Input Scaler
+├── EDUNETMLPROJECT.ipynb # ML Training Notebook
+├── requirements.txt # Dependency list
+├── Dockerfile # Containerization support
+├── Procfile # Deployment file (Heroku / Cloud)
+├── setup.sh # Server setup script
+└── README.md # Project Documentation
