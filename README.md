@@ -1,38 +1,44 @@
-# Air Quality Index Prediction System
+# 🌫️ Air Quality Prediction System  
+> A Machine Learning powered Streamlit web application to predict Air Quality Index (AQI)
 
-A Streamlit web application for predicting Air Quality Index using machine learning models.
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
+![MachineLearning](https://img.shields.io/badge/Model-RandomForest%2C%20Regression%2C%20DecisionTree-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-Open--Source-lightgrey)
 
-## Features
+---
 
-- Multiple ML models (Random Forest, Linear Regression, Decision Tree)
-- Model comparison and evaluation
-- Interactive predictions
-- Data visualization
+## 📖 Overview
 
-## Local Setup
+The **Air Quality Prediction System** is a machine-learning-based interactive web app that predicts the **Air Quality Index (AQI)** from given pollutant and environmental feature values.  
+The project supports **multiple ML models**, allows **real-time predictions**, and can be deployed using **Streamlit, Docker, and Cloud platforms**.
 
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+---
 
-2. Run the app:
-```bash
-streamlit run streamlit_app.py
-```
+## 🚀 Key Features
 
-## Deployment
+- 🔮 Real-time AQI prediction using ML Models  
+- 🧪 Compare model performance and metrics  
+- 📊 Visualizations for better insights  
+- 🌐 Fully interactive Streamlit web UI  
+- ⚙️ Easy deployment (Streamlit / Docker / Cloud)  
+- 🎯 Pre-trained models included  
 
-See `DEPLOYMENT_GUIDE.md` for detailed deployment instructions.
+---
 
-### Quick Deploy to Streamlit Cloud:
+## 🛠 Tech Stack
 
-1. Push this code to GitHub
-2. Go to https://share.streamlit.io
-3. Connect your GitHub repository
-4. Deploy!
+| Layer | Tools / Libraries |
+|--------|---------------------------|
+| Language | Python |
+| Models | Random Forest, Linear Regression, Decision Tree |
+| Framework | Streamlit |
+| ML Tools | Scikit-Learn, Pandas, NumPy |
+| Deployment | Streamlit Cloud / Docker |
+| Serialization | Pickle |
 
-## Requirements
+---
 
-- Python 3.8+
-- See `requirements.txt` for Python packages
+## 📂 Project Structure
+
