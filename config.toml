@@ -5,8 +5,9 @@ enableCORS = false
 
 [theme]
 primaryColor = "#1f77b4"
-backgroundColor = "#ffffff"
+backgroundColor = "#87cefa"
 secondaryBackgroundColor = "#f0f2f6"
 textColor = "#262730"
 font = "sans serif"
+
 
