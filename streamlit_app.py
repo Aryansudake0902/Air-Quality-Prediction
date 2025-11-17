@@ -638,7 +638,7 @@ elif page == "🔮 Predict AQI":
                 
                 with col2:
                     st.markdown(f"""
-                    <div style='background-color: #f0f2f6; padding: 2rem; border-radius: 10px;'>
+                    <div style='background-color: #87cefa; padding: 2rem; border-radius: 10px;'>
                         <h3>💡 Recommendation</h3>
                         <p style='font-size: 1.1rem;'>{recommendation}</p>
                     </div>
@@ -722,5 +722,6 @@ This application predicts Air Quality Index (AQI) based on various environmental
 - Real-time predictions
 - Performance analysis
 """)
+
 
 
