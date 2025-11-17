@@ -18,7 +18,7 @@ warnings.filterwarnings('ignore')
 
 # Page configuration
 st.set_page_config(
-    page_title="Air Quality Index Prediction System",
+    page_title="Air Quality Prediction And Recommendation System",
     page_icon="🌬️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -722,4 +722,5 @@ This application predicts Air Quality Index (AQI) based on various environmental
 - Real-time predictions
 - Performance analysis
 """)
+
 
